@@ -6,14 +6,36 @@
     <title>Macro Calculator</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    
   </head>
+    
   <body>
     <header>
-      <div class="logo"> <!--img not displaying-->
+      <div class="logo"> 
         <img src="./logo.png" alt="Logo" />
         <span id="app-title">Macro Calculator</span>
       </div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search your task here" />
+        </div>
+      
+      <button class="search-button">
+        <svg
+        xmlns="http://ww.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewbox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+      </button>
       <div class="date-display">
         <div class="day" id="currentDay">Friday</div>
         <div class="full-date" id="currentDate">07/06/2025</div>
@@ -143,6 +165,7 @@
                   <p>
                     <strong>Protein</strong><span id="protein-grams>"></span> g
                    </p>
+                   <p>
                     <strong>Carbohydrates:</strong> <span is="carbs-grams"></span> g
                   </p>
                   <p>
@@ -151,7 +174,7 @@
                 </div>
               </div>
             </section>
-            <script src="./index.html"></script>   
+            <script src="./script.js"></script>   
             </body>
 </html>
 
